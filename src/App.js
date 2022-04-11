@@ -8,11 +8,12 @@ function App() {
   return (
     <div className="App">
       
+      
+      <div className="body">
       <ProfilePhoto>
          <img src={User}/>
       </ProfilePhoto>
-
-        <Profile
+      <Profile
         
           fullName={"Abednebi Wael"}
           profession={"Full Stack Developer"}
@@ -20,6 +21,9 @@ function App() {
           handleName={handleName}
         >
         </Profile>
+      </div>
+
+        
       
     </div>
   );
